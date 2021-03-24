@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Recherche"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+
+        />
+    <item android:title="Titres des livres (croissant)"
+        android:id="@+id/TitreCroissant"/>
+    <item android:title="Titres des livres (décroissant)"
+        android:id="@+id/TitreDecroissant"/>
+    <item android:title="Nom des Auteurs (croissant)"
+        android:id="@+id/AuteurCroissant"/>
+    <item android:title="Nom des Auteurs (décroissant)"
+        android:id="@+id/AuteurDecroissant"/>
+    <item android:title="Date de parution (croissant)"
+        android:id="@+id/DateCroissant"/>
+    <item android:title="Date de parution (décroissant)"
+        android:id="@+id/DateDecroissant"/>
+
+</menu>
